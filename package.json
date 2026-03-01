@@ -1,6 +1,6 @@
 {
-  "name": "mobilescreen",
-  "version": "0.1.0",
+  "name": "@mobilescreen/cli",
+  "version": "0.1.1",
   "description": "MobileScreen CLI for generating & uploading screenshots to App Store Connect.",
   "license": "MIT",
   "author": {
@@ -8,7 +8,7 @@
     "email": "afsuren@gmail.com",
     "url": "https://furkansuren.com"
   },
-  "repository": "surkanfuren/mobilescreen-cli",
+  "repository": "surkanfuren/mobilescreen",
   "homepage": "https://mobilescreen.co",
   "type": "module",
   "bin": {
