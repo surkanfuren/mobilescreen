@@ -1,0 +1,28 @@
+{
+  "name": "mobilescreen",
+  "version": "0.1.0",
+  "description": "MobileScreen CLI for generating & uploading screenshots to App Store Connect.",
+  "license": "MIT",
+  "author": {
+    "name": "Furkan Suren",
+    "email": "afsuren@gmail.com",
+    "url": "https://furkansuren.com"
+  },
+  "repository": "surkanfuren/mobilescreen-cli",
+  "homepage": "https://mobilescreen.co",
+  "type": "module",
+  "bin": {
+    "mobilescreen": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "commander": "^13.0.0",
+    "open": "^11.0.0"
+  }
+}
